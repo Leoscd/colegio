@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modalidad Corporativa - IA en Arquitectura para tu Colegio</title>
+    <meta name="description" content="Modalidad Corporativa: Programa exclusivo organizado por el Colegio. Control total, nueva fuente de ingresos y diferenciación competitiva.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>IA en Arquitectura</h1>
+                    <span class="logo-subtitle">Para Colegios</span>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="index.html#modalidades">Modalidades</a>
+                    <a href="index.html#contenido">Contenido</a>
+                    <a href="index.html#instructor">Instructor</a>
+                    <a href="index.html#faq">FAQ</a>
+                    <a href="index.html#contacto" class="cta-nav">Contactar</a>
+                </div>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero-corporativa">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="featured-badge-hero">Modalidad Recomendada</div>
+                <h1 class="hero-title">Modalidad Corporativa</h1>
+                <h2 class="hero-subtitle">Programa Exclusivo Organizado por el Colegio</h2>
+                
+                <p class="hero-description">
+                    La opción estratégica para colegios que buscan generar una nueva fuente de ingresos, 
+                    ofrecer servicios exclusivos a sus matriculados y posicionarse como líderes en innovación 
+                    profesional con control total sobre el programa.
+                </p>
+                
+                <div class="hero-benefits">
+                    <div class="benefit">
+                        <span class="checkmark">✓</span>
+                        <span>Control total del programa y precios</span>
+                    </div>
+                    <div class="benefit">
+                        <span class="checkmark">✓</span>
+                        <span>Nueva fuente de ingresos para el Colegio</span>
+                    </div>
+                    <div class="benefit">
+                        <span class="checkmark">✓</span>
+                        <span>Programa exclusivo para matriculados</span>
+                    </div>
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="#solicitar-propuesta" class="btn-primary">Solicitar propuesta personalizada</a>
+                    <a href="#como-funciona" class="btn-secondary">Ver cómo funciona</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="hero-graphic corporativa">
+                    <div class="graphic-element corporativa-icon"></div>
+                    <div class="graphic-element revenue-icon"></div>
+                    <div class="graphic-element exclusive-icon"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo Funciona Section -->
+    <section id="como-funciona" class="como-funciona">
+        <div class="container">
+            <h2 class="section-title">Cómo funciona</h2>
+            
+            <div class="pasos-container">
+                <div class="paso">
+                    <div class="paso-numero">1</div>
+                    <div class="paso-content">
+                        <h3>Contratación del Servicio</h3>
+                        <p>El Colegio contrata la capacitación como un servicio profesional virtual, definiendo fechas y cantidad de participantes según sus necesidades.</p>
+                    </div>
+                </div>
+                
+                <div class="paso">
+                    <div class="paso-numero">2</div>
+                    <div class="paso-content">
+                        <h3>Gestión de Inscripciones</h3>
+                        <p>El Colegio maneja las inscripciones con cupos limitados para generar exclusividad, define los precios para matriculados y gestiona la lista de espera.</p>
+                    </div>
+                </div>
+                
+                <div class="paso">
+                    <div class="paso-numero">3</div>
+                    <div class="paso-content">
+                        <h3>Ejecución del Programa</h3>
+                        <p>Dictado de la capacitación en las fechas acordadas, con seguimiento personalizado y casos específicos adaptados a los participantes del Colegio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Solicitar Información -->
+    <section class="solicitar-info">
+        <div class="container">
+            <h2 class="section-title">¿Interesado en la Modalidad Corporativa?</h2>
+            <p class="section-subtitle">Agenda una llamada para conocer opciones y precios personalizados</p>
+            
+            <div class="cta-center">
+                <button class="btn-primary btn-large" onclick="openCalendly()">Agendar llamada</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Cronograma de Implementación -->
+    <section class="cronograma">
+        <div class="container">
+            <h2 class="section-title">Cronograma del Curso</h2>
+            <p class="section-subtitle">10 encuentros distribuidos en 6 semanas</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-number">1</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Semanas 1-2</h3>
+                        <p>4 encuentros - 2 clases por semana</p>
+                        <ul>
+                            <li>Fundamentos de IA para Arquitectura</li>
+                            <li>Optimización de Diseños</li>
+                            <li>Gestión de Información</li>
+                            <li>Introducción a Automatización</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-number">2</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Semanas 3-4</h3>
+                        <p>4 encuentros - 2 clases por semana</p>
+                        <ul>
+                            <li>Presupuestos Automatizados</li>
+                            <li>Apps Locales y Herramientas</li>
+                            <li>Implementación Práctica</li>
+                            <li>Casos de Estudio Específicos</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-number">3</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Semanas 5-6</h3>
+                        <p>2 encuentros - 1 clase por semana</p>
+                        <ul>
+                            <li>Resolución de dudas puntuales</li>
+                            <li>Consolidación y seguimiento final</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>IA en Arquitectura</h4>
+                    <p>Transformando la práctica profesional de arquitectos mediante inteligencia artificial.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Email: contacto@ia-arquitectura.com</p>
+                    <p>WhatsApp: +1 (555) 123-4567</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Enlaces rápidos</h4>
+                    <a href="index.html">Inicio</a>
+                    <a href="modalidad-individual.html">Modalidad Individual</a>
+                    <a href="index.html#contenido">Contenido</a>
+                    <a href="index.html#faq">FAQ</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 IA en Arquitectura. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
